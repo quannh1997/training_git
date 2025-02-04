@@ -1,0 +1,10 @@
+int factorial(int n) {
+  int result = 1;
+  
+  return result;
+}
+
+
+void main() {
+  
+}

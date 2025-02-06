@@ -1,19 +1,14 @@
-int factorial(int n) {
-  if (n < 0) {
-    throw ArgumentError("n phải dương");
-  }
-  int result = 1;
-  for (int i = 2; i <= n; i++) {
-    result *= i;
-  }
+static int factorial(int n) {
+ int result = 1, i; 
+        for (i = 2; i <= n; i++) 
+            result *= i; 
+  
   return result;
 }
 
-void main() {
+
+public static void main(String[] args) {
   int num = 5;
-try {
-    print("Factorial of $num is ${factorial(num)}"); 
-  } catch (e) {
-    print("Error: $e");
-  }
+System.out.println("Factorial of " + num + " is "
+                           + factorial(5)); 
 }

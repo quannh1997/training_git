@@ -1,6 +1,6 @@
 int factorial(int n) {
   if (n < 0) {
-    throw ArgumentError("n phải dương");
+    throw ArgumentError("n phải dương;-;");
   }
   int result = 1;
   for (int i = 2; i <= n; i++) {

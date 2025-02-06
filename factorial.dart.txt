@@ -1,5 +1,7 @@
 int factorial(int n) {
   int result = 1;
+
+Cố tình tạo conflict
   
   return result;
 }
